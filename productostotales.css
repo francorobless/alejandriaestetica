@@ -28,6 +28,7 @@ header {
 .logo img{
     height: 60px;
     margin-right: 10px;
+    margin-left: 20px;
 }
 
 .container {
@@ -101,7 +102,7 @@ nav a:hover {
 }
 
 .prod-dest {
-    margin: 80px;
+    margin: 20px;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -178,4 +179,34 @@ a.linkprod {
     letter-spacing: 1px;
     max-height: 40px;
     overflow: hidden;
+}
+
+.precio {
+    margin: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    color: black;
+    text-align: center;
+    letter-spacing: 1px;
+    max-height: 40px;
+    overflow: hidden;
+
+}
+
+.producto button {
+    color: #fff;
+    border: 0;
+    background-color: #ed1c2e;
+    border-radius: 10px;
+}
+
+.producto button:hover {
+    background-color: #6D6E71;
+    transition: 1s;
+}
+
+.producto button:not(:hover) {
+    background-color: #ed1c2e;
+    transition-duration: 1s;
 }

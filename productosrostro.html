@@ -11,7 +11,7 @@
     <header>
         <a href="https://www.instagram.com/alejandria_estetica/" class="logo">
             <img src="logo.jpg" alt="logo de la empresa">
-            <!-- <h2 class="nombre-empresa">Alejandria Estetica</h2> -->
+            <!-- <h2 class="|-empresa">Alejandria Estetica</h2> -->
         </a>
         <div class="container" id="container">
         <form class="search-box">
@@ -21,11 +21,19 @@
         </form>
         </div>
         <nav>
-            <a href="" class="nav-link" id="carrito">Carrito</a>
+            <div id="contenedorcarrito">
+                <button type="button" id="botonDesplegar">Carrito</button>
+                <div id="contenidoDesplegable">
+                    <p id="articulosCarrito"></p><br>
+                    <p id="totalCarrito"></p>
+                </div>
+            </div>
             <a href="" class="nav-link">Sobre Nosotros</a>
             <a href="" class="nav-link">Contacto</a>
         </nav>
     </header>
+
+
 
     <div class="prod-dest">
         <h1>nuestros productos para rostro</h1>
@@ -40,21 +48,14 @@
                     <p>Rostro / Reparador</p>
                 </a>
                 <div class="precio"> Precio sugerido: $5750</div>
-                <button type="button" onclick="agregarAlcarrito('VITA SHIELD HYDRA COMPLEX', 5750)">Agregar al Carrito</button>
+                <button type="button" onclick="agregarAlcarrito('VITA SHIELD HYDRA COMPLEX',5750)">Agregar al Carrito</button>
                 </div>
             <div class="producto" id="producto2">
                 <img src="imgbox3.png">
-                <h3>VITA SHIELD AGELESS COMPLEX</h3>
+                <h3>FORMULA RESVERATROL</h3>
                 <p>Rostro / Reparador</p></a>
-                <div class="precio"> Precio sugerido: $5750</div>
-                <button type="button" onclick="agregarAlcarrito('VITA SHIELD HYDRA COMPLEX', 5750)">Agregar al Carrito</button>
-            </div>
-            <div class="producto" id="producto3">
-                <img src="imgbox5.png">
-                <h3>VITA SHIELD AGELESS COMPLEX</h3>
-                <p>Rostro / Reparador</p></a>
-                <div class="precio"> Precio sugerido: $5750</div>
-                <button type="button" onclick="agregarAlcarrito('VITA SHIELD HYDRA COMPLEX', 5750)">Agregar al Carrito</button>
+                <div class="precio"> Precio sugerido: $7300</div>
+                <button type="button" onclick="agregarAlcarrito('FORMULA RESVERATROL', 7300)">Agregar al Carrito</button>
             </div>
         </div>
         <div class="columna" id="columna2">
@@ -62,22 +63,15 @@
                 <img src="imgbox2.png">
                 <h3>VITA SHIELD AGELESS COMPLEX</h3>
                 <p>Rostro / Reparador</p></a>
-                <div class="precio"> Precio sugerido: $5750</div>
-                <button type="button" onclick="agregarAlcarrito('FORMULA REVERATROL', 5750)">Agregar al Carrito</button>
+                <div class="precio"> Precio sugerido: $6555</div>
+                <button type="button" onclick="agregarAlcarrito('VITA SHIELD AGELESS COMPLEX', 6555)">Agregar al Carrito</button>
             </div>
             <div class="producto" id="producto5">
                 <img src="imgbox4.png">
-                <h3>VITA SHIELD AGELESS COMPLEX</h3>
+                <h3>FORMULA MELATONINA</h3>
                 <p>Rostro / Reparador</p></a>
-                <div class="precio"> Precio sugerido: $5750</div>
-                <button type="button" onclick="agregarAlcarrito('VITA SHIELD HYDRA COMPLEX', 5750)">Agregar al Carrito</button>
-            </div>
-            <div class="producto" id="producto6">
-                <img src="imgbox5.png">
-                <h3>VITA SHIELD AGELESS COMPLEX</h3>
-                <p>Rostro / Reparador</p></a>
-                <div class="precio"> Precio sugerido: $5750</div>
-                <button type="button" onclick="agregarAlcarrito('VITA SHIELD HYDRA COMPLEX', 5750)">Agregar al Carrito</button>
+                <div class="precio"> Precio sugerido: $7300</div>
+                <button type="button" onclick="agregarAlcarrito('FORMULA MELATONINA', 7300)">Agregar al Carrito</button>
             </div>
         </div>
     </div>

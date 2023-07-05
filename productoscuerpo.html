@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+    </style>
+<head>
+    <title>Productos</title>
+    <link rel="stylesheet" href="productostotales.css">
+</head>
+<body>
+    <header>
+        <a href="https://www.instagram.com/alejandria_estetica/" class="logo">
+            <img src="logo.jpg" alt="logo de la empresa">
+            <!-- <h2 class="nombre-empresa">Alejandria Estetica</h2> -->
+        </a>
+        <div class="container" id="container">
+        <form class="search-box">
+            <input type="text" id="searchInput" name="buscador" placeholder="Busca un producto en especifico">
+            <button type="submit" id="searchButton" name="searchButton"><img src="https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-9.png"></button>
+            <div id="searchResults" name="searchResults"></div>
+        </form>
+        </div>
+        <nav>
+            <a href="" class="nav-link" id="carrito">Carrito</a>
+            <a href="" class="nav-link">Sobre Nosotros</a>
+            <a href="" class="nav-link">Contacto</a>
+        </nav>
+    </header>
+
+    <div class="prod-dest">
+        <h1>nuestros productos para cuerpo</h1>
+    </div>
+
+    <div class="contenedor" id="contenedor">
+        <div class="columna" id="columna1">
+            <a class="linkprod" href="producto1.html">
+                <div class="producto" id="producto1">
+                    <img src="skinbiomahandcream.png" alt="skinbiomahandcream">
+                    <h3>Skinbioma Hand Cream</h3>
+                    <p>Cuerpo / Reparador</p>
+                </a>
+                <div class="precio"> Precio sugerido: $5750</div>
+                <button type="button" onclick="agregarAlcarrito('VITA SHIELD HYDRA COMPLEX', 5750)">Agregar al Carrito</button>
+                </div>
+            <div class="producto" id="producto2">
+                <img src="imgbox3.png">
+                <h3>VITA SHIELD AGELESS COMPLEX</h3>
+                <p>Rostro / Reparador</p></a>
+                <div class="precio"> Precio sugerido: $5750</div>
+                <button type="button" onclick="agregarAlcarrito('VITA SHIELD HYDRA COMPLEX', 5750)">Agregar al Carrito</button>
+            </div>
+            <div class="producto" id="producto3">
+                <img src="imgbox5.png">
+                <h3>VITA SHIELD AGELESS COMPLEX</h3>
+                <p>Rostro / Reparador</p></a>
+                <div class="precio"> Precio sugerido: $5750</div>
+                <button type="button" onclick="agregarAlcarrito('VITA SHIELD HYDRA COMPLEX', 5750)">Agregar al Carrito</button>
+            </div>
+        </div>
+        <div class="columna" id="columna2">
+            <div class="producto" id="producto4">
+                <img src="formulacelluintenseemulsion.jpg">
+                <h3>FORMULA CELLUINTENSE EMULSION</h3>
+                <p>Rostro / Reparador</p></a>
+                <div class="precio"> Precio sugerido: $6555</div>
+                <button type="button" onclick="agregarAlcarrito('VITA SHIELD AGELESS COMPLEX', 6555)">Agregar al Carrito</button>
+            </div>
+            <div class="producto" id="producto5">
+                <img src="imgbox4.png">
+                <h3>VITA SHIELD AGELESS COMPLEX</h3>
+                <p>Rostro / Reparador</p></a>
+                <div class="precio"> Precio sugerido: $5750</div>
+                <button type="button" onclick="agregarAlcarrito('VITA SHIELD HYDRA COMPLEX', 5750)">Agregar al Carrito</button>
+            </div>
+            <div class="producto" id="producto6">
+                <img src="imgbox5.png">
+                <h3>VITA SHIELD AGELESS COMPLEX</h3>
+                <p>Rostro / Reparador</p></a>
+                <div class="precio"> Precio sugerido: $5750</div>
+                <button type="button" onclick="agregarAlcarrito('VITA SHIELD HYDRA COMPLEX', 5750)">Agregar al Carrito</button>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

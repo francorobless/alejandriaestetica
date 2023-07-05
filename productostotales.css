@@ -101,6 +101,23 @@ nav a:hover {
     color: #fff;
 }
 
+#botonDesplegar {
+    border: 0;
+    background: transparent;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    font-weight: 600;
+    padding-inline: 20px;
+    margin-bottom: 10px;
+}
+
+#botonDesplegar:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
 .prod-dest {
     margin: 20px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -120,7 +137,6 @@ nav a:hover {
 }
 
 .columna {
-    flex: 1;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -209,4 +225,12 @@ a.linkprod {
 .producto button:not(:hover) {
     background-color: #ed1c2e;
     transition-duration: 1s;
+}
+
+#contenedorcarrito {
+    display: flex;
+}
+
+#contenidoDesplegable {
+    
 }

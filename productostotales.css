@@ -101,23 +101,6 @@ nav a:hover {
     color: #fff;
 }
 
-#botonDesplegar {
-    border: 0;
-    background: transparent;
-    font-size: 17px;
-    text-transform: uppercase;
-    font-family: 'Roboto Condensed', sans-serif;
-    color: black;
-    font-weight: 600;
-    padding-inline: 20px;
-    margin-bottom: 10px;
-}
-
-#botonDesplegar:hover {
-    color: #fff;
-    cursor: pointer;
-}
-
 .prod-dest {
     margin: 20px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -207,7 +190,6 @@ a.linkprod {
     letter-spacing: 1px;
     max-height: 40px;
     overflow: hidden;
-
 }
 
 .producto button {
@@ -215,6 +197,7 @@ a.linkprod {
     border: 0;
     background-color: #ed1c2e;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .producto button:hover {
@@ -227,10 +210,58 @@ a.linkprod {
     transition-duration: 1s;
 }
 
-#contenedorcarrito {
-    display: flex;
+#contenidoDesplegable {
+    display: none;
+    position: absolute;
+    left: 950px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    z-index: 1;
+    width: 350px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 10px;
 }
 
-#contenidoDesplegable {
-    
+#contenidoDesplegable p {
+    margin: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: black;
+    letter-spacing: 1px;
+}
+  
+#botonDesplegar {
+    position: relative;
+    border: 0;
+    background: transparent;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    font-weight: 600;
+}
+
+#botonDesplegar:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+#contenidoDesplegable button {
+    color: #fff;
+    border: 0;
+    background-color: #ed1c2e;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#contenidoDesplegable button:hover {
+    background-color: #6D6E71;
+    transition: 1s;
+}
+
+#contenidoDesplegable button:not(:hover) {
+    background-color: #ed1c2e;
+    transition-duration: 1s;
 }
